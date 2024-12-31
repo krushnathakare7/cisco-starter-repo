@@ -1,0 +1,13 @@
+#banner {
+    height: 10vh; /* 15% of the viewport height */
+    background-color: blue; /* Background color */
+    color: white; /* Text color */
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    margin: 0; /* Remove any default margin */
+}
+
+#banner h1 {
+    margin: 0; /* Remove default margin for h1 */
+}
