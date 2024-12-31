@@ -1,11 +1,13 @@
 
 import './App.css';
 import Banner from './components/Banner';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (
     <div className="App">
-     <Banner />
+      <Banner />
+      <Dashboard/>
     </div>
   );
 }
