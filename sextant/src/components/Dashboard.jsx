@@ -1,5 +1,6 @@
 import IpAddress from "./IpAddress"
 import './Dashboard.css'
+import Latency from "./Latency";
 
 const Dashboard = () => {
 
@@ -12,7 +13,8 @@ const Dashboard = () => {
                 <h2 id="stats">Ip Stats: </h2>
                 <div id="container">
                     <IpAddress ip={IPV4}/>  
-                    <IpAddress ip={IPV6}/>  
+                    <IpAddress ip={IPV6}/> 
+                    <Latency/> 
                 </div>
                     
             </div>
